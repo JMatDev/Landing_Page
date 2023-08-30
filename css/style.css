@@ -35,14 +35,17 @@ header{
     width: 168px;
     height: 88px;
     font-size: 21px;
-    font-weight: 500;
+    font-weight: 550;
     letter-spacing: -0.5px;
     border: 0;
     border-radius: 2186px;
+    transition: 0.4s;
 }
 
 .main_buttons_box li button:hover{
     background-color: #45434A;
+    transform: scale(1.025);
+    cursor: pointer;
 }
 
 .apparence_buttons_box{
@@ -54,11 +57,35 @@ header{
     height: 88px;
 }
 
-.apparence_buttons_box button{
-
+.toggle_dark_mode_button{
+    background: white;
+    border-radius: 200px;
+    box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
+    width: 120px;
+    height: 60px;
+    margin-top: 13px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
-.dark_mode_button{
 
+.language_button{
+    border: 1px solid white;
+    width: 150px;
+    height: 80px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.bandera{
+    border: 1px solid red;
+    width: 100px;
+    height: 80px;
+}
+
+.flecha{
+    border: 1px solid blue;
+    width: 50px;
+    height: 80px;
 }
 
 
