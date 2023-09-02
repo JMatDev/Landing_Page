@@ -1,6 +1,6 @@
 /* fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* css */
 body{
     background-color: #19181C;
@@ -9,11 +9,12 @@ body{
 }
 
 header{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 100vw;
-    height: 120px;
+    height: 88px;
     display: flex;
     justify-content: center;
+    margin-top: 32px;
 }
 
 .main_buttons_box{
@@ -22,7 +23,6 @@ header{
     list-style: none;
     align-items: center;
     justify-content: space-between;
-    padding: 32px 0 0 0;
     margin: 0;
     width: 1160.530px;
     height: 88px;
@@ -30,11 +30,12 @@ header{
 }
 
 .main_buttons_box li button{
-    font-family: 'Inter', sans-serif;
     color: white;
     background-color: #19181C;
     width: 168px;
     height: 88px;
+
+    font-family: 'Inter', sans-serif;
     font-size: 21px;
     font-weight: 550;
     letter-spacing: -0.5px;
@@ -53,7 +54,6 @@ header{
   /*  border: 1px solid white; */
     display: flex;
     justify-content: center;
-    padding: 32px 0 0 0;
     width: 290px;
     height: 88px;
 }
@@ -94,10 +94,81 @@ header{
 
 
 .home{
-    border: 1px solid white; 
-    width: 100%;
+    /*border: 1px solid white; */
+    width: 100vw;
     height: 800px;
+    justify-content: center;
+    display: flex;
+    margin-top: 42px;
 }
 
+.imagen_container{
+    width: 652.79px;
+    height: 741.33px;
+    display: flex;
+    justify-content: center;
+    
+}
+.imagen_container img{
+    width: 562.66px;
+    height: 741.33px;
+    border-radius: 4rem;
+    box-shadow: rgb(56, 56, 56) 0rem 1.75rem 2rem 0rem;
+}
 
+.container_left_home{
+    /*border: 1px solid blue; */
+    width: 797.87px;
+    height: 741.33px;
+    justify-content: center;
+}
 
+.titulo{
+   /* border: 1px solid chartreuse; */
+    width: 797.86px;
+    height: 216px;
+    margin: 0;
+    margin-top: 40px;
+
+    color: #F5F5F5;
+    font-family: 'Archivo', sans-serif;
+    letter-spacing: -0.025rem;
+    font-size: 96px;
+    line-height: 1.125;
+    font-weight: 100;
+}
+
+.titulo span{
+    color: #336DDE;
+}
+
+.subtitulo{
+    border: 1px solid pink; 
+    width: 797.86px;
+    height: 128.03px; 
+    margin: 0;
+    margin-top: 46.66px;
+}
+
+.subtitulo{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #FFFFFFDB;
+    font-size: 21.3px;
+    line-height: 2;
+    font-weight: 300;
+}
+
+.button_colums_1{
+    border: 1px solid pink; 
+    width: 797.86px;
+    height: 88px;
+    margin-top: 53.33px; 
+}
+
+.button_colums_2{
+    border: 1px solid pink; 
+    width: 797.86px;
+    height: 64px;
+    margin-top: 42.66px; 
+}
